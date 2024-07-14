@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+   <h1>Rock Paper Scissors</h1>
+   <div class="container">
+      <div id="rockDiv" class="choice">
+         <img id="rock" class="rps" src="rock.png" alt="rock.png">
+      </div>
+      <div id="paperDiv" class="choice">
+         <img id="paper" class="rps" src="paper.png"alt="paper.png">
+      </div>
+      <div id="scissorsDiv" class="choice">
+         <img id="scissors" class="rps" src="scissors.jpg" alt="scissors.jpg">
+      </div>
+   </div>
+   <div id="players">
+      <div class="plComp">
+         <p id="player">You</p>
+         <p id="playerScr">0</p>
+      </div>
+      <div class="plComp">
+         <p id="computer">Computer</p>
+         <p id="computerScr">0</p>
+      </div>
+   </div>
+   <div class="msg-container">
+      <p class="msg">Play Your Move</p>
+   </div>
+   <button id="btn">Reset</button>
+</body>
+<script src="script.js"></script>
+</html>
